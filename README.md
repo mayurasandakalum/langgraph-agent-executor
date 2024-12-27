@@ -1,7 +1,7 @@
 *
 # LangGraph Agent Executor
 
-![Cover Photo](./images/cover_photo.png)
+![Cover Photo](./images/cover_photo.jpeg)
 
 Welcome to the **Langgraph Agent Executor**! This repository demonstrates how to build a custom agent using **LangChain**, **LangGraph**, and a lightweight `GPT-4o-mini` model. The project is set up in a single Jupyter Notebook, showcasing how to orchestrate tool usage and agent steps with a flow-based approach.
 
@@ -65,7 +65,7 @@ langgraph-agent-executor/
 ├─ requirements.txt          # Python dependencies
 ├─ notebook.ipynb            # Jupyter Notebook with all code cells
 ├─ images/
-│   ├─ cover_photo.png
+│   ├─ cover_photo.jpeg
 │   ├─ agent_flow_chart.png
 │   └─ state_management_action_node.png
 └─ ...
