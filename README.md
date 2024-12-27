@@ -2,7 +2,7 @@
 
 ![Cover Photo](./images/cover_photo.jpeg)
 
-Welcome to the **Langgraph Agent Executor**! This repository demonstrates how to build a custom agent using **LangChain**, **LangGraph**, and a lightweight `GPT-4o-mini` model. The project is set up in a single Jupyter Notebook, showcasing how to orchestrate tool usage and agent steps with a flow-based approach.
+Welcome to the **LangGraph Agent Executor**! This repository demonstrates how to build a custom agent using **LangChain**, **LangGraph**, and a lightweight `GPT-4o-mini` model. The project is set up in a single Jupyter Notebook, showcasing how to orchestrate tool usage and agent steps with a flow-based approach.
 
 ---
 
@@ -26,7 +26,7 @@ Welcome to the **Langgraph Agent Executor**! This repository demonstrates how to
 This project demonstrates how to:
 
 - Initialize a stateful agent that processes user input.  
-- Use **Langgraph** to define a **StateGraph** workflow.  
+- Use **LangGraph** to define a **StateGraph** workflow.  
 - Dynamically execute tools (in this case, a Tavily search tool) based on the agent’s output.  
 - Stream partial outcomes from a compiled runnable.  
 - Make use of a small GPT-4–like model (gpt-4o-mini) to generate actions or final answers.  
@@ -44,7 +44,7 @@ This project demonstrates how to:
    - An **Action Node** executes a tool based on agent instructions.  
    - A simple conditional function determines if the workflow should continue.  
 
-3. **LangChain & Langgraph Integration**  
+3. **LangChain & LangGraph Integration**  
    - Makes use of `create_openai_functions_agent` from LangChain.  
    - Defines a **StateGraph** that orchestrates nodes and transitions between them.  
 
