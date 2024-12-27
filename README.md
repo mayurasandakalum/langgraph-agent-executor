@@ -81,8 +81,8 @@ langgraph-agent-executor/
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/mayurasandakalum/agent-executor.git
-   cd agent-executor
+   git clone https://github.com/mayurasandakalum/langgraph-agent-executor.git
+   cd langgraph-agent-executor
    ```
 
 2. **Create (and activate) a Virtual Environment**  
