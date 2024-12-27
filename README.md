@@ -1,15 +1,15 @@
-
-# LangGraph Agent Project
+*
+# LangGraph Agent Executor
 
 ![Cover Photo](./images/cover_photo.png)
 
-Welcome to the **Langgraph Agent Project**! This repository demonstrates how to build a custom agent using **LangChain**, **LangGraph**, and a lightweight `GPT-4o-mini` model. The project is set up in a single Jupyter Notebook, showcasing how to orchestrate tool usage and agent steps with a flow-based approach.
+Welcome to the **Langgraph Agent Executor**! This repository demonstrates how to build a custom agent using **LangChain**, **LangGraph**, and a lightweight `GPT-4o-mini` model. The project is set up in a single Jupyter Notebook, showcasing how to orchestrate tool usage and agent steps with a flow-based approach.
 
 ---
 
 ## Table of Contents
 
-- [LangGraph Agent Project](#langgraph-agent-project)
+- [LangGraph Agent Executor](#langgraph-agent-executor)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Features](#features)
@@ -19,7 +19,6 @@ Welcome to the **Langgraph Agent Project**! This repository demonstrates how to 
   - [Code Explanation](#code-explanation)
   - [Images](#images)
   - [Contributing](#contributing)
-  - [License](#license)
 
 ---
 
@@ -60,7 +59,7 @@ This project demonstrates how to:
 A suggested directory layout for this project is:
 
 ```
-langgraph-agent-project/
+langgraph-agent-executor/
 ├─ .env                      # Stores sensitive API keys
 ├─ README.md                 # You are here 😉 !!!
 ├─ requirements.txt          # Python dependencies
@@ -83,8 +82,8 @@ langgraph-agent-project/
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/username/langgraph-agent-project.git
-   cd langgraph-agent-project
+   git clone https://github.com/mayurasandakalum/agent-executor.git
+   cd agent-executor
    ```
 
 2. **Create (and activate) a Virtual Environment**  
@@ -139,7 +138,7 @@ Below is a brief overview of key cells from the notebook:
 
 3. **LLM & Agent Creation**  
    - Pulls a prompt template via `hub.pull("hwchase17/openai-functions-agent")`.  
-   - Initializes the GPT-4–like model `ChatOpenAI(model="gpt-4o-mini")`.  
+   - Initializes the GPT-4o-mini model `ChatOpenAI(model="gpt-4o-mini")`.  
    - Constructs the agent via `create_openai_functions_agent(llm, tools, prompt)`.  
 
 4. **State & Workflow**  
@@ -182,12 +181,6 @@ Contributions are welcome! If you find a bug or have a suggestion to improve thi
 
 ---
 
-## License
-
-This project is open-sourced under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project as you wish.
-
----
-
-**Thank you for checking out the Langgraph Agent Project!**  
+**Thank you for checking out the LangGraph Agent Executor!**  
 
 If you have any questions, suggestions, or feedback, please open an issue or create a pull request. Have fun experimenting with your custom agent workflow!
