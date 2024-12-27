@@ -1,4 +1,3 @@
-*
 # LangGraph Agent Executor
 
 ![Cover Photo](./images/cover_photo.jpeg)
